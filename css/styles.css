@@ -1,10 +1,11 @@
+/* #region  basic style*/
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  color: #434455;
+  color: #2e2f42;
   background-color: #ffffff;
 }
 
@@ -12,133 +13,156 @@ ul,
 ol {
   list-style-type: none;
 }
-
-.team-title,
-.portfolio-title {
+h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   text-align: center;
+  color: #2e2f42;
 }
-
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-nav > .link,
-.footer > .link {
+p {
+  color: #434455;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* #endregion */
+/* #region common style*/
+
+/* #endregion */
+/* #region  header style*/
+.header {
+}
+.header-nav {
+}
+.header-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.header-accent {
   color: #4d5ae5;
 }
-
-.link {
+.header-list {
+}
+.header-item {
+}
+.nav-link {
   font-weight: 500;
-  text-decoration: none;
-  color: #2e2f42;
 }
-
-header .link:hover,
-header .link:focus {
-  color: #404bbf;
+.address {
 }
-
-.accent {
-  color: #2e2f42;
+.address-list {
 }
-
-.social {
-  font-style: normal;
+.address-item {
 }
-
-.social .link {
+.address-link {
   color: #434455;
 }
-
+/* #endregion */
+/* #region  hero style*/
 .hero {
   background: #2e2f42;
-  color: #fff;
 }
-.hero .hero-title {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
+  line-height: 1.07143;
   text-align: center;
+  color: #fff;
 }
-.hero .button {
-  font-weight: 500;
-  letter-spacing: 0.04em;
+.button {
   background: #4d5ae5;
-  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  cursor: pointer;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
-.hero .button:hover,
-.hero .button:focus {
-  background: #404bbf;
+/* #endregion */
+/* #region benefits style*/
+.benefits {
 }
-
-.benefits .benefits-title {
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.benefits-title {
 }
-
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-subtitle {
+}
+.benefits-text {
+}
+/* #endregion */
+/* #region team style*/
 .team {
   background: #f4f4fd;
 }
-.team .team-title {
-  text-transform: capitalize;
+.team-title {
 }
-
-.team .worker-list {
-  background-color: #ffffff;
+.team-list {
 }
-
-.team .worker-title {
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.team-item {
 }
-
-.team .worker-text {
-  font-size: 16px;
-}
-
-.portfolio-main {
-  font-size: 36px;
-  line-height: 1.11;
+.team-subtitle {
   text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
-
+.team-text {
+  text-align: center;
+}
+/* #endregion */
+/* #region  portfolio style*/
+.portfolio {
+}
 .portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  background-color: #ffffff;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
-
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-subtitle {
+}
 .portfolio-text {
-  font-size: 16px;
 }
-
+/* #endregion */
+/* #region  footer style*/
 .footer {
   background: #2e2f42;
 }
-
-.footer-accent,
+.footer-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-accent {
+  color: #f4f4fd;
+}
 .footer-text {
   color: #f4f4fd;
 }
+/* #endregion */
