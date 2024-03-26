@@ -9,6 +9,14 @@ body {
   background-color: #ffffff;
 }
 
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
 ul,
 ol {
   list-style-type: none;
@@ -21,6 +29,7 @@ h2 {
   text-align: center;
   color: #2e2f42;
 }
+
 h3 {
   font-weight: 500;
   font-size: 20px;
@@ -61,6 +70,7 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: inherit;
 }
 .header-accent {
   color: #4d5ae5;
@@ -70,6 +80,7 @@ p {
 .header-item {
 }
 .nav-link {
+  color: inherit;
   font-weight: 500;
 }
 .address {
