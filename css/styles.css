@@ -9,22 +9,15 @@ body {
   background-color: #ffffff;
 }
 
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.section {
-  padding: 120px 0;
-}
-
 a {
   text-decoration: none;
   box-sizing: border-box;
   padding: 0;
 }
 
+img {
+  display: block;
+}
 address {
   font-style: normal;
 }
@@ -73,6 +66,8 @@ p {
   color: #434455;
 }
 
+/* #endregion */
+/* #region common style*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -85,17 +80,24 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* #endregion */
-/* #region common style*/
 
+.container {
+  width: 1158px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 120px 0;
+}
 /* #endregion */
 /* #region  header style*/
 .header {
+  border-bottom: solid #e7e9fc;
 }
 .header .container {
   display: flex;
   align-content: space-between;
-  padding: 24px 0;
 }
 .header-nav {
   display: flex;
@@ -124,6 +126,7 @@ p {
   gap: 40px;
 
   margin-right: 332px;
+  padding: 24px 0;
 }
 
 .header-item {
@@ -141,6 +144,7 @@ p {
 .address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .address-link {
   color: #434455;
@@ -156,7 +160,7 @@ p {
 }
 
 .hero .container {
-  padding: 188px 0 187px;
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -165,7 +169,7 @@ p {
   text-align: center;
   color: #fff;
 
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto 48px;
 }
 .button {
@@ -212,6 +216,9 @@ p {
   background: #f4f4fd;
 }
 
+.team .container {
+  padding: 32px 0;
+}
 .team-title {
   margin-bottom: 72px;
 }
@@ -227,15 +234,11 @@ p {
 .team-info {
   padding: 32px 16px;
   background: #fff;
-
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-
   border-radius: 0 0 4px 4px;
 }
 .team-subtitle {
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-text {
   text-align: center;
@@ -252,13 +255,10 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  row-gap: 48px;
   gap: 24px;
 }
 .portfolio-info {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
   padding: 32px 16px;
 
   border-bottom: 1px solid #e7e9fc;
@@ -268,6 +268,7 @@ p {
 .portfolio-item {
 }
 .portfolio-subtitle {
+  margin-bottom: 8px;
 }
 .portfolio-text {
 }
@@ -275,14 +276,15 @@ p {
 /* #region  footer style*/
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer .container {
-  padding: 100px 0;
   display: flex;
   flex-direction: column;
-  gap: 17.5px;
 }
 .footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
