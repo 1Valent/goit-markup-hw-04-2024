@@ -106,8 +106,9 @@ p {
 .header .container {
   display: flex;
   align-content: space-between;
-  position: sticky;
-  z-index: 999;
+  /* position: fixed;
+  background-color: #fff;
+  z-index: 999; */
 }
 .header-nav {
   display: flex;
@@ -464,12 +465,19 @@ p {
 .footer-right-side {
   width: 208px;
 }
-
-.social-title {
+.footer-right-side .social-list {
+  gap: 16px;
+}
+.footer-right-side .social-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+}
+
+.footer-right-side .social-link:hover,
+.footer-right-side .social-link:focus {
+  background-color: #31d0aa;
 }
 /* #endregion */
